@@ -1,0 +1,77 @@
+.alert {
+  padding: 20px;
+  margin-left: 30px;
+  background-color: #ffc300;
+  color: black;
+}
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+  background-color: black;
+}
+
+.vip {
+  background-color: black;
+}
+
+.container {
+  padding: 0px;
+  margin-left: 100px;
+  background-color: black;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+.container input[type="text"]:focus,
+.container input[type="password"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.container hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+.container a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  width: 20%;
+}

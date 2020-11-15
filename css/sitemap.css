@@ -1,0 +1,24 @@
+.container {
+  clear: both;
+  overflow: auto;
+  background-color: black;
+}
+
+h4 {
+  font-size: 700;
+}
+
+.map {
+  width: 900px;
+  text-align: -webkit-center;
+  background-color: gold;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-width: 100px;
+}
+.site {
+  text-align: center;
+  border-width: 100px;
+}

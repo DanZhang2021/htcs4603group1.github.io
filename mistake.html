@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="css/mistake.css" />
+    <!--use font-awesome for navbar dropdown icon, search icon, and social media icon-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>mistake</title>
+  </head>
+  <body>
+    <!--navigation bar start-->
+    <div class="header">
+      <a class="logo" href="homepage.html"
+        ><img alt="logo" src="images/logo.jpg" height="100px" width="300px"
+      /></a>
+      <div class="search-section">
+        <div class="search-box">
+          <input type="text" class="search-input" />
+          <a href="mistake.html" class="search-btn">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+      </div>
+      <a class="login" href="login.html">LOGIN</a>
+    </div>
+    <div class="navbar">
+      <a href="movies.html">Movies</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Events
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="halloween.html">Halloween</a>
+          <a href="christmas.html">Christmas</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Promotions
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="5week.html">$5 week</a>
+          <a href="vip.html">VIP Club</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Useful Information
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="aboutus.html">About Us</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+      </div>
+      <a href="reviews.html">Reviews</a>
+    </div>
+    <!--navigation bar end-->
+
+    <!--error page start-->
+    <div class="main">
+      <table >
+        <tr>
+          <td>
+            <img class="excalmatory" src="images/mistake.jpg" alt="excalmatory" width="237",height=“525”>
+            <!--image reference:https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSf5wzA7EtA_WToyASv8wKJsbRaVxJ-M9MM4w&usqp=CAU-->
+          </td>
+          <td class="inform"><b><h1>Sorry, this page is temporarily unavailable.</h1></b><br>
+            <p><h2>We are currently working on it, please come back later.</h2></p>
+            <a href="homepage.html"><button class="button" vaule="homepage"><h2>Go back to the HOMEPAGE</h2></button></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!--error page end-->
+
+    <!--footer start-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h2>Contact Us</h2>
+          <p>Address: 139 Carrington Road, Mount Albert, Auckland 1025</p>
+          <p>Tel: 09-815 4321</p>
+          <a href="mistake.html"><i class="fab fa-facebook-f"></i></a>
+          <a href="mistake.html"><i class="fab fa-twitter"></i></a>
+          <a href="mistake.html"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-section">
+          <h2>Events</h2>
+          <ul>
+            <li><a href="halloween.html">Halloween</a></li>
+            <li><a href="christmas.html">Christmas</a></li>
+            <li><a href="5week.html">$5 Week</a></li>
+            <li><a href="vip.html">VIP Club</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h2>Get Help</h2>
+          <ul>
+            <li><a href="movies.html">Movies list</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--footer end-->
+    
+    <!--copyright start-->
+    <div class="copyright-section">Copyright &copy; #1Cinema</div>
+    <!--copyright end-->
+    
+    <!--back to top button start-->
+    <button onclick="topFunction()" id="myBtn" title="top">TOP</button>
+    <script type="text/javascript" src="js/topbtn.js"></script>
+    <!--back to top button end-->
+  </body>
+</html>

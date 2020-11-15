@@ -1,0 +1,27 @@
+.main {
+  background-color: gray;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+td {
+  padding: 20px;
+}
+#Buy {
+  text-align: center;
+}
+.Buy {
+  text-align: center;
+  font-size: 18px;
+  text-align: center;
+  background-color: black;
+  color: #fd9911;
+  border-radius: 30px;
+  padding: 7px 0px;
+  width: 170px;
+  height: 60px;
+}
+h1 h4 h5 {
+  color: #fd9911;
+}

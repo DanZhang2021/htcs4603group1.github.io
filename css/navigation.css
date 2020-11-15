@@ -1,0 +1,252 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation bar start*/
+.header {
+  background-color: black;
+  height: 150px;
+}
+.logo {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 80px;
+  float: left;
+  width: 300px;
+  height: 80px;
+}
+.login {
+  margin-top: -95px;
+  margin-right: 100px;
+  text-decoration: none;
+  text-align: center;
+  float: right;
+  width: 150px;
+  height: 40px;
+  background-color: goldenrod;
+  color: white;
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+/*search-section start*/
+.search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box {
+  margin-top: 45px;
+  margin-bottom: 45px;
+  margin-left: 300px;
+  height: 40px;
+  background: #2c3e50;
+  padding: 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-box .search-input {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  width: 0px;
+  transition: 0.5s;
+}
+
+.search-box .search-btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e67e22;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 50%;
+}
+
+.search-box:hover .search-input {
+  width: 250px;
+}
+
+.search-box:hover .search-btn {
+  background: white;
+}
+/*search-section end*/
+
+.navbar {
+  padding: 0px 30px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  background-color: goldenrod;
+  font-size: 19px;
+  text-align: center;
+  height: 50px;
+}
+.navbar a {
+  display: block;
+  color: white;
+  float: left;
+  text-decoration: none;
+  width: 250px;
+  padding-top: 10px;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+  width: 250px;
+}
+
+.dropdown .dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 30px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.dropdown-content {
+  font-size: 16px;
+  display: none;
+  position: absolute;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  background-color: rgba(255, 255, 255, 0.7);
+  float: none;
+  color: goldenrod;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: goldenrod;
+  transition: all 0.3s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+/*navigation bar end*/
+
+/* footer start*/
+.footer {
+  background-color: #303036;
+  height: 250px;
+  width: 100%;
+  color: #d3d3d3;
+  bottom: 0;
+}
+.footer-content {
+  margin-left: 30px;
+}
+
+.footer-section {
+  width: 33%;
+  float: left;
+  text-align: left;
+  color: #fff;
+}
+.footer h2 {
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.footer-section ul {
+  margin-top: 15px;
+  padding: 0;
+  list-style: none;
+}
+.footer-section ul a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #dbe7f0;
+}
+.footer p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #c2c5c7;
+}
+.footer .fab {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa-facebook-f {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+/* footer end*/
+
+/* copyright start*/
+.copyright-section {
+  background: #343a40;
+  color: #686868;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding-top: 20px;
+  text-align: center;
+  height: 50px;
+}
+/* copyright end*/
+
+/* back to top button start*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 5px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(88, 88, 88, 0.5);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  width: auto;
+}
+
+#myBtn:hover {
+  background-color: rgba(218, 165, 32, 0.5);
+}
+/* back to top button end*/

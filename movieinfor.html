@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/w3pro.css" />
+    <link rel="stylesheet" type="text/css" href="css/movieinfor.css" />
+    <!--for buy tickts-->
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" type="text/css" href="css/navigation.css" /> 
+    <!--use font-awesome for navbar dropdown icon, search icon, and social media icon-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <title>movie information</title>
+</head>
+
+<body>
+         <!--navigation bar start-->
+    <div class="header">
+      <a class="logo" href="homepage.html"
+        ><img alt="logo" src="images/logo.jpg" height="100px" width="300px"
+      /></a>
+      <div class="search-section">
+        <div class="search-box">
+          <input type="text" class="search-input" />
+          <a href="mistake.html" class="search-btn">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+      </div>
+      <a class="login" href="login.html">LOGIN</a>
+    </div>
+    <div class="navbar">
+      <a href="movies.html">Movies</a>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Events
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="halloween.html">Halloween</a>
+          <a href="christmas.html">Christmas</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Promotions
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="5week.html">$5 week</a>
+          <a href="vip.html">VIP Club</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+          Useful Information
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="aboutus.html">About Us</a>
+          <a href="contactus.html">Contact Us</a>
+        </div>
+      </div>
+      <a href="reviews.html">Reviews</a>
+    </div>
+    <!--navigation bar end-->
+
+    <div class="main">
+        <table>
+            <tr>
+                <td>
+                    <img class="film" src="images/tus-TWO OF US.jpg" alt="film TWO OF US" width="400" ,height=“625”>
+                    <!--image reference:https://du4mee2ozsclz.cloudfront.net/production/posters-and-backdrops/282x422/film/52797/4f96ce5fbfdf1c914b1cd9b12332e154.jpg-->
+                </td>
+                <td class="inform"><b>
+                        <h1 >TWO OF US</h1>
+                        <h4>2019 ‧ Drama/Narrative </h4>
+                        <h4>Director: Filippo Meneghetti</h4>
+                    </b><br>
+                    <!--buy ticket button-->
+                    <button class="Buy" onclick="document.getElementById('Buy').style.display='block'"style="font-weight:700;">Buy Ticket</button>
+                    <div id="Buy" class="w3-modal">
+                        <div class="w3-modal-content w3-card-4 w3-animate-top">
+                            <header class="w3-container w3-theme">
+                                <span onclick="document.getElementById('Buy').style.display='none'"
+                                    class="w3-button w3-display-topright">×</span>
+                                <img alt="logo" src="images/logo.jpg" />
+                            </header>
+                            <div class="w3-padding">
+                                <p>This film is in your wathching list now!</p>
+                                <p>You can go<a class="w3-button w3-theme" href="login.html">LOGIN</a>page and pay!</p>
+                            </div>
+                            <footer class="w3-container w3-theme">
+                                <p>Enjoy movies! Enjoy beautiful life!</p>
+                            </footer>
+                        </div>
+                    </div>
+                      <!--buy ticket button-->
+                  <hr>
+                  <p>
+                    <b><h5 style="color: #df9911;">Release Date:	18/11/2020</h5></b>
+                    <b><h5 style="color: #df9911;">Running Time:	119 mins</h5></b>
+                </p>
+                    <h3>Nina and Madeleine, two retired women, have been secretly and deeply in love for decades. 
+                        From everybody’s point of view, including Madeleine’s family, they are simply neighbors
+                         living on the top floor of their building.
+
+                        They come and go between their two apartments, sharing the tender delights of everyday 
+                        life together, until an unforeseen event turns their relationship upside down and leads 
+                        Madeleine’s daughter to gradually unravel the truth about them.</h3>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    <!--footer start-->
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h2>Contact Us</h2>
+          <p>Address: 139 Carrington Road, Mount Albert, Auckland 1025</p>
+          <p>Tel: 09-815 4321</p>
+          <a href="mistake.html"><i class="fab fa-facebook-f"></i></a>
+          <a href="mistake.html"><i class="fab fa-twitter"></i></a>
+          <a href="mistake.html"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="footer-section">
+          <h2>Events</h2>
+          <ul>
+            <li><a href="halloween.html">Halloween</a></li>
+            <li><a href="christmas.html">Christmas</a></li>
+            <li><a href="5week.html">$5 Week</a></li>
+            <li><a href="vip.html">VIP Club</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h2>Get Help</h2>
+          <ul>
+            <li><a href="movies.html">Movies list</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--footer end-->
+    
+  <!--copyright start-->
+  <div class="copyright-section">Copyright &copy; #1Cinema</div>
+  <!--copyright end-->
+
+  <!--back to top button start-->
+  <button onclick="topFunction()" id="myBtn" title="top">TOP</button>
+  <script type="text/javascript" src="js/topbtn.js"></script>
+  <!--back to top button end-->
+</body>
+</html>

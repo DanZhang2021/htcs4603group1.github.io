@@ -1,0 +1,183 @@
+.movies-section {
+  width: 100%;
+  background-color: #3c0e0e;
+  height: auto;
+  padding-bottom: 90px;
+}
+
+.movies-section-2 {
+  width: 100%;
+  float: left;
+}
+
+.layout-padding {
+  padding-top: 0px;
+  padding-bottom: 90px;
+}
+
+.movies-menu {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.movies-menu ul {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  text-align: center;
+}
+
+.movies-menu li {
+  float: left;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 0px 25px;
+  list-style-type: none;
+}
+
+.movies-menu li a {
+  color: #ffffff;
+}
+
+.movies-menu li a:hover {
+  color: #d89616;
+  border-bottom: 5px solid #d89616;
+  z-index: 2;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.movies-menu:after {
+  content: "";
+  border: 1px solid #ffffff;
+  position: relative;
+  width: 890px;
+  text-align: center;
+  right: 0;
+  top: -2px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  left: -20px;
+  z-index: 0;
+}
+
+.movies-menu li.active a {
+  color: #d89616;
+  border-bottom: 5px solid #d89616;
+  z-index: 2;
+  position: relative;
+}
+
+.title-text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.seemore-bt {
+  width: 100%;
+  float: right;
+}
+.movies-main {
+  width: 100%;
+  float: left;
+}
+
+.img-movies-main {
+  width: 100%;
+  display: flex;
+}
+
+.img-movies {
+  width: 100%;
+  float: left;
+  margin: 0px 13px;
+}
+
+.img-1 {
+  position: relative;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.img-1:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.playnow-bt {
+  background-color: #df9911;
+  color: #ececec;
+  text-decoration-color: none;
+  font-size: 16px;
+  padding: 7px 0px;
+  width: 110px;
+  border-radius: 30px;
+}
+
+.playnow-bt a {
+  color: inherit;
+}
+
+.code-text {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: #ececec;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.seemore-bt {
+  width: 100%;
+  float: right;
+}
+
+.seemore-bt a {
+  width: 170px;
+  float: right;
+  font-size: 18px;
+  color: #df9911;
+  text-align: right;
+}
+
+.seemore-bt a:hover {
+  color: #ffffff;
+}
+
+.seebt-1 {
+  width: 170px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.seebt-1 a {
+  width: 170px;
+  float: right;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #df9911;
+  padding: 7px 0px;
+  border-radius: 30px;
+  margin-top: 60px;
+}
+
+.seebt-1 a:hover {
+  color: #000;
+  background-color: #ffffff;
+}

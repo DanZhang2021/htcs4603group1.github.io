@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+.word {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.center {
+  font-size: 30px;
+  text-align: left;
+}
+.map {
+  padding: 20px;
+  text-align: center;
+}
